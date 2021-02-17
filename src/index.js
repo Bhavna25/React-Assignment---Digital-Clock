@@ -1,12 +1,10 @@
-import { StrictMode } from "react";
+import React from "react";
 import ReactDOM from "react-dom";
+import App from "./components/App";
+function generateCodeFromObject(obj) {
+    //return a code generated string
+}
 
-import App from "./App";
+export default generateCodeFromObject;
 
-const rootElement = document.getElementById("root");
-ReactDOM.render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-  rootElement
-);
+ReactDOM.render(<App />, document.getElementById("root"));
